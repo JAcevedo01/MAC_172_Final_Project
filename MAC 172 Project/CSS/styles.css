@@ -1,0 +1,134 @@
+body{
+  font-family:"Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+a{  
+  text-decoration: none;
+  color: #ff4c68;
+}
+a:hover{  
+  text-decoration: none;
+  color: #ff4c68;
+  opacity: 50%;
+}
+p{
+  color: #8f8f8f;
+}
+label,input{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+.container-fluid{
+  padding: 3% 10% 7%;
+}
+/* Nav Bar */
+.navbar{
+  padding:0 0.5rem 1.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 9px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+/* For front page*/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.title-image{
+  width: 100%;
+  position: relative;
+  right: 1.5%;
+}
+/* For the Footer*/
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
+/* To help organize the boxes*/
+#signin{  /* universally used */
+  padding:100px;
+  text-align: center;
+}
+.signin-column{
+  padding:5% 3%;
+}
+.register{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.container{
+  padding: 10px;
+  height: 100%;
+  justify-content: space-between;
+}
+/*For the blog, submission, and top pages*/
+.submit-container{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 20px;
+}
+.submit-image{
+  max-width: 40%;
+  height: auto;
+  max-height: 200px;
+  margin-right: 20px;
+}
+.text{
+  flex: 1;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+/*For rating system*/
+.rating{
+  display: inline-block;
+  font-size: 24px;
+}
+.fa-circle-arrow-up, .fa-circle-arrow-down{
+  cursor: pointer;
+}
+.liked{
+  color: limegreen;
+}
+.disliked{
+  color: orangered;
+}
